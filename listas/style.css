@@ -1,0 +1,31 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+* {
+	box-sizing: border-box;
+}
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+.menu {
+	background: rgb(202, 27, 188);
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+.menu li {
+	display: inline-block;
+}
+.menu li a {
+	color: #fff;
+	font-size: large;
+	display: block;
+	text-decoration: none;
+	padding: 20px 15px;
+}
+.menu li a:hover {
+	background: rgba(52, 24, 180, 0.685);
+}

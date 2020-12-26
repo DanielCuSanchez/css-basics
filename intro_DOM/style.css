@@ -1,0 +1,16 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor {
+	display: inline-block;
+}
+.caja {
+	background: blueviolet;
+	color: #fff;
+	height: 100px;
+	width: 400px;
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

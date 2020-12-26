@@ -1,0 +1,30 @@
+@font-face {
+	font-family: "RobotoSlabBold";
+	src: url("./static/RobotoSlab-Bold.ttf");
+}
+@font-face {
+	font-family: "RobotoSlabLight";
+	src: url("./static/RobotoSlab-Light.ttf");
+}
+@font-face {
+	font-family: "RobotoSlabThin";
+	src: url("./static/RobotoSlab-Thin.ttf");
+}
+@font-face {
+	font-family: "RobotoSlabRegular";
+	src: url("./static/RobotoSlab-Regular.ttf");
+}
+body {
+	font-family: "RobotoSlabBold";
+}
+
+h1 {
+	font-family: "RobotoSlabThin";
+	font-size: 50px;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: "Oswald", sans-serif;
+	font-size: 30px;
+}

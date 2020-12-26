@@ -1,0 +1,15 @@
+.caja {
+	width: 300px;
+	height: 300px;
+	background: blueviolet;
+	transition: all 0.3s ease;
+	/* ease - Inicio lento, despues rapido y termina lento */
+	/* linea - misma velocidad de incio a fin */
+	/* ease in - inicio lento y termina rapido */
+	/* empienza rapido y termina lento */
+	/* ease in out  */
+}
+.caja:hover {
+	background: blue;
+	transform: rotate(180deg);
+}

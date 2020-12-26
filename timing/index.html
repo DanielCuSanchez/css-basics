@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			* {
+				box-sizing: border-box;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+			.contenedor {
+				height: 300px;
+				width: 500px;
+				background: #f2f2f2;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				margin: 50px auto;
+			}
+			.reloj {
+				font-size: 20px;
+				font-family: Arial, Helvetica, sans-serif;
+				padding: 30px 20px;
+				margin: 30px;
+				height: 80px;
+				color: #003d;
+			}
+			button {
+				outline: none;
+				border: none;
+				border-radius: 6px;
+				padding: 20px 30px;
+				font-family: 18px;
+				font-weight: bold;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+			.red {
+				background: rgb(221, 74, 74);
+				color: white;
+			}
+			.green {
+				background: rgb(18, 151, 107);
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="contenedor">
+			<h2>Timing</h2>
+			<div id="reloj" class="reloj"></div>
+			<div class="buttons">
+				<button class="green" id="iniciar">Iniciar</button>
+				<button class="red" id="detener">Detener</button>
+			</div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,9 @@
+.caja {
+	width: 100px;
+	height: 100px;
+	background: orange;
+	/* transform: translate(300px); */
+	/* transform: scale(6, 8); */
+	transform: skew(30deg, 80deg);
+	transform: translate(200px) scale(2, 6) rotate(90deg);
+}

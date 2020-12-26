@@ -1,0 +1,44 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+p::first-letter {
+	font-size: 40px;
+	font-weight: bold;
+}
+p::first-line {
+	background: #ccffdd;
+}
+p::selection {
+	background-color: blueviolet;
+	color: #ccffdd;
+}
+p::-moz-selection {
+	background-color: blueviolet;
+	color: #ccffdd;
+}
+.caja {
+	background-color: aquamarine;
+	border: 1px solid black;
+	height: 400px;
+	width: 400px;
+	position: relative;
+}
+.caja::before {
+	content: "Contenido antes de la caja";
+	display: inline-block;
+	background-color: orange;
+	color: white;
+	position: absolute;
+	left: 80%;
+	height: 300px;
+	width: 300px;
+}
+.caja::after {
+	content: "";
+	background-color: black;
+	height: 60px;
+	width: 60px;
+	display: block;
+	position: relative;
+	left: 20px;
+}

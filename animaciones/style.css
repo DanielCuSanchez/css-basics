@@ -1,0 +1,55 @@
+.caja {
+	background: #9eb3c2;
+	width: 200px;
+	height: 200px;
+	/* animation-name: colors;
+	animation-duration: 2s;
+    animation-iteration-count: infinite; */
+	animation: colores 2s linear infinite;
+}
+
+@keyframes colors {
+	0% {
+		transform: rotate(45deg);
+	}
+	25% {
+		transform: rotate(90deg);
+	}
+	50% {
+		transform: rotate(135deg);
+	}
+	75% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(225deg);
+	}
+}
+
+@keyframes colores {
+	/* from {
+		background: #9eb3c2;
+	}
+	to {
+		background: #0c9aff;
+    } */
+	0% {
+		background: #9eb3c2;
+	}
+	25% {
+		background: #704ab6;
+		width: 300px;
+	}
+	50% {
+		background: #1893eb;
+		width: 400px;
+	}
+	75% {
+		background: #d42e3c;
+		width: 300px;
+	}
+	100% {
+		background: #9eb3c2;
+		width: 200px;
+	}
+}
